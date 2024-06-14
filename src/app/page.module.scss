@@ -7,14 +7,19 @@
     display: flex;
     flex-direction: column;
 
-    background-color: black;
-    color: #2e1c04;
-    font-size: 48px;
+    background: 
+    url('https://homebrewery.naturalcrit.com/assets/parchmentBackground.jpg') center center / cover no-repeat,
+    radial-gradient(circle at top left, rgba(134, 110, 1, 0.2), transparent),
+    radial-gradient(circle at top right, rgba(134, 110, 1, 0.2), transparent),
+    radial-gradient(circle at bottom left, rgba(134, 110, 1, 0.2), transparent),
+    radial-gradient(circle at bottom right, rgba(134, 110, 1, 0.2), transparent);
+    background-blend-mode: multiply;
+    color: #744c18;
+    font-size: 45px;
     line-height: 66px;
-    cursor: default;
+    cursor: none;
     
     p{
-
       padding:40px;
     }
   }
@@ -23,7 +28,7 @@
     mask-image: url('../../public/mask.svg');
     mask-repeat: no-repeat;
     mask-size: 40px;
-    background: rgb(22, 22, 22);
+    background: rgb(108, 211, 252);
     position: absolute;
     color: black;
   }
