@@ -2,14 +2,5 @@
   command = "npm run build"
   publish = ".next"
 
-[build.environment]
-  NEXT_PUBLIC_API_URL = "https://api.example.com"
-  NEXT_PUBLIC_ANOTHER_VARIABLE = "some_value"
-
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
